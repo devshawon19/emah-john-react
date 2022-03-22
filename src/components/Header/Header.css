@@ -1,0 +1,28 @@
+nav{
+    background-color: #1C2B35;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.logo{
+    margin-right: auto;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+}
+.menu-list>li{
+    padding-inline: 12px;
+    font-size: 17px;
+}
+.menu-list a{
+    color: white;
+    text-decoration: none;
+}
+.menu-list a:hover{
+    color: orange;
+}
